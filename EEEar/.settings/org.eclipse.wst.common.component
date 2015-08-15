@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EEEar-1.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="EE-Web-1.0-SNAPSHOT.war" deploy-path="/" handle="module:/resource/EE-Web/EE-Web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EEService-1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/EEService/EEService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.34.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-core-4.0.0.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/hibernate-core/4.0.0.Final/hibernate-core-4.0.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-transaction-api_1.1_spec-1.0.0.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xml-apis-1.0.b2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-jpa-2.0-api-1.0.1.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-logging-3.1.0.CR2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="classmate-0.5.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/classmate/0.5.4/classmate-0.5.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jandex-1.0.3.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/jboss/jandex/1.0.3.Final/jandex-1.0.3.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-commons-annotations-4.0.1.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.12.1.GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-entitymanager-4.0.0.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/hibernate-entitymanager/4.0.0.Final/hibernate-entitymanager-4.0.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-c3p0-4.0.0.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/hibernate-c3p0/4.0.0.Final/hibernate-c3p0-4.0.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="c3p0-0.9.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/c3p0/c3p0/0.9.1/c3p0-0.9.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-validator-4.0.0.GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/hibernate-validator/4.0.0.GA/hibernate-validator-4.0.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.0.0.GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-api-2.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax-api-1.0-2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation-1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/activation/activation/1.1/activation-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-impl-2.1.3.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/sun/xml/bind/jaxb-impl/2.1.3/jaxb-impl-2.1.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EEPrimarySource-1.0-SNAPSHOT.jar" deploy-path="/lib" handle="module:/resource/EEPrimarySource/EEPrimarySource">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junit-4.12.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/junit/junit/4.12/junit-4.12.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hamcrest-core-1.3.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-log4j12-1.7.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

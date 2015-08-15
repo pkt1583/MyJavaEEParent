@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="war" name="EE-Web:war">
+      <output-path>$PROJECT_DIR$/EE-Web/target</output-path>
+      <root id="archive" name="EE-Web-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="EE-Web:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="EE-Web:war exploded">
+      <output-path>$PROJECT_DIR$/EE-Web/target/EE-Web-1.0-SNAPSHOT</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="EE-Web" />
+          </element>
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/EE-Web/target/EE-Web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="javaee-facet-resources" facet="EE-Web/web/Web" />
+      </root>
+    </artifact>
+    <artifact type="ear" name="EEEar:ear">
+      <output-path>$PROJECT_DIR$/EEEar/target</output-path>
+      <root id="archive" name="EEEar-1.0-SNAPSHOT.ear">
+        <element id="artifact" artifact-name="EEEar:ear exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-ear" name="EEEar:ear exploded">
+      <output-path>$PROJECT_DIR$/EEEar/target/EEEar-1.0-SNAPSHOT</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="EEEar/javaeeApplication/JavaEE" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/EEEar/target/EEEar-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/EEEar/src/main/application" />
+      </root>
+    </artifact>
+    <artifact type="ejb-jar" name="EEService:ejb">
+      <output-path>$PROJECT_DIR$/EEService/target</output-path>
+      <root id="archive" name="EEService-1.0-SNAPSHOT.jar">
+        <element id="artifact" artifact-name="EEService:ejb exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-ejb" name="EEService:ejb exploded">
+      <output-path>$PROJECT_DIR$/EEService/target/EEService-1.0-SNAPSHOT</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="EEService/ejb/EJB" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/EEService/target/EEService-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="EEService" />
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for EEPrimarySource" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="EEPrimarySource" />
+      </profile>
+      <profile default="false" name="Annotation profile for EE-Web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="EE-Web" />
+      </profile>
+      <profile default="false" name="Annotation profile for EEEar" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="EEEar" />
+      </profile>
+      <profile default="false" name="Annotation profile for EEService" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="EEService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EE-Web" target="1.7" />
+      <module name="EEEar" target="1.7" />
+      <module name="EEPrimarySource" target="1.7" />
+      <module name="EEService" target="1.7" />
+      <module name="MyJavaEEParent" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="id" value="1398599796338" />
+    <option name="name" value="default" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="ejb" url="file://$PROJECT_DIR$/EEService" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/EEEar" />
+    <file type="web" url="file://$PROJECT_DIR$/EE-Web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EE-Web/EE-Web.iml" filepath="$PROJECT_DIR$/EE-Web/EE-Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EEEar/EEEar.iml" filepath="$PROJECT_DIR$/EEEar/EEEar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EEPrimarySource/EEPrimarySource.iml" filepath="$PROJECT_DIR$/EEPrimarySource/EEPrimarySource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EEService/EEService.iml" filepath="$PROJECT_DIR$/EEService/EEService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyJavaEEParent.iml" filepath="$PROJECT_DIR$/MyJavaEEParent.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
