@@ -5,11 +5,12 @@ import com.myee.requestResponse.ConsultationRequestBuilder;
 import com.myee.try1.PatientConsultationRequest;
 
 import javax.ejb.Stateless;
+import javax.inject.Named;
 
 /**
  * Created  on 8/11/2015.
  */
-@Stateless
+@Named
 public class DoctorServiceFacade {
 
 
@@ -21,6 +22,10 @@ public class DoctorServiceFacade {
 		RequestAcknowledgement requestAcknowledgement=patientConsultationRequest.getRequestQueueResolver().resolve().publishInformation(patientConsultationRequest);
 		return requestAcknowledgement;
 	}
+
+	public void getResponse(RequestAcknowledgement requestAcknowledgement){
+        //return null;
+    }
 
 
 }

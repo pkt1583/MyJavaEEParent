@@ -6,4 +6,7 @@ package com.myee.model;
 public class RequestAcknowledgement {
 	private String requestQueue;
 
+	public void setRequestQueue(String requestQueue) {
+		this.requestQueue = requestQueue;
+	}
 }
